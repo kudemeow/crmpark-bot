@@ -1,0 +1,27 @@
+## Основные исключения ##
+bin/
+obj/
+.vs/
+.idea/
+*.user
+*.suo
+*.nupkg
+
+## Конфиги с секретами ##
+appsettings.json
+appsettings.*.json
+secrets.json
+
+## Логи и временные файлы ##
+*.log
+*.tmp
+*.cache
+
+## Данные IDE ##
+.vs/
+.idea/
+bin/
+obj/
+
+## Исключения для тестов ##
+TestResults/
