@@ -9,7 +9,6 @@ obj/
 *.nupkg
 
 ## Конфиги с секретами ##
-appsettings.json
 appsettings.*.json
 secrets.json
 
