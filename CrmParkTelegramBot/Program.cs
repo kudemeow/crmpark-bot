@@ -69,6 +69,6 @@ internal class Program
         );
 
         Console.WriteLine("Бот запущен. Нажмите Enter для остановки.");
-        Console.ReadLine();
+        await Task.Delay(-1);
     }
 }
